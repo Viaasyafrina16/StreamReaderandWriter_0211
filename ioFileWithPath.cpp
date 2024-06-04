@@ -5,6 +5,7 @@ using namespace std;
 
 int main() {
     string baris;
+    string NamaFile;
 
     //membuka file dalam mode menulis.
     ofstream outfile;
@@ -48,9 +49,5 @@ int main() {
     else cout << "Unable to open file";
     return 0;
 }
-
-
-
-
 
 
